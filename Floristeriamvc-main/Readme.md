@@ -25,7 +25,8 @@ El cliente solicitó las siguientes funcionalidades mínimas:
 
 ### Configurar la Seguridad con Spring Security
 (usuario: admin, contraseña: password)
-Pasos para el Producto Mínimo Viable y Seguridad
+
+### Pasos para el Producto Mínimo Viable y Seguridad
 Paso 1: Asegúrate de tener las entidades necesarias para gestionar flores y pedidos
 Las entidades Flor y Pedido ya están definidas, lo que te permite gestionar flores y pedidos. 
 Revisa el código de los controladores, servicios y repositorios que tienes, asegurándote de que las operaciones CRUD funcionan correctamente.
