@@ -24,7 +24,7 @@ El cliente solicitó las siguientes funcionalidades mínimas:
 3. Una interfaz sencilla que permita realizar estas acciones.
 
 ### Configurar la Seguridad con Spring Security
-
+(usuario: admin, contraseña: password)
 Pasos para el Producto Mínimo Viable y Seguridad
 Paso 1: Asegúrate de tener las entidades necesarias para gestionar flores y pedidos
 Las entidades Flor y Pedido ya están definidas, lo que te permite gestionar flores y pedidos. 
@@ -50,5 +50,5 @@ El flujo de trabajo para el PMV y la Seguridad es el siguiente:
 
 Página de Login: Los usuarios no autenticados son redirigidos a la página de login al intentar acceder a las rutas protegidas (/flores y /pedidos).
 Autenticación Exitosa: Al iniciar sesión con éxito 
-###(usuario: admin, contraseña: password), los usuarios pueden ver y gestionar flores y pedidos.
+(usuario: admin, contraseña: password), los usuarios pueden ver y gestionar flores y pedidos.
 Gestión de Flores y Pedidos: Los usuarios pueden crear, editar, eliminar y ver flores y pedidos. Todo esto está protegido por autenticación.
